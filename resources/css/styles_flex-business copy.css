@@ -1,21 +1,32 @@
+html {
+ background-image: url(../img/Reiki_Symbols.jpg) ;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
+}
 body {
-  background-color: #000;
   color: rgb(75, 247, 7);
+}
+
+header {
+  background-image: url(../img/Reiki_Symbols.jpg);
 }
 h1 {
   text-align: center;
 }
+
 .container {
-  width: 960px;
+  width: 100%;
+  height:auto;
   text-align: center;
 }
+
 .content-area {
   width: 100%;
+  border: 3px solid;
 }
 
-header {
-  background: #ffffff url(../img/Reiki_Symbols.jpg) no-repeat right top;
-}
+
 p {
   font-size: 1.25rem;
   width: 100%;
@@ -52,7 +63,7 @@ h2 {
 }
 
 .main-container {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: start;
   flex: 1;
@@ -62,22 +73,25 @@ img {
   width: 100%;
 }
 .left {
+  color: black;
   order: 2;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   background-size: auto;
 }
 .right {
   order: 3;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 .main {
   order: 1;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 .content-area {
-  background: #fff url(../img/Reiki_Symbols.jpg) no-repeat center right;
-
+  
   width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .left {
@@ -85,3 +99,13 @@ img {
   margin: 10px;
   box-sizing: border-box;
 }
+/*SERVICES STYLING STARTS HERE*/
+.wraper {
+  width: 85%;
+  display: flex;
+  border: 4px solid white;
+  margin: 25px auto;
+
+}
+
+/*SERVICES STYLING ENDS ABOVE HERE*/
