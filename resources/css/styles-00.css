@@ -1,13 +1,16 @@
 body {
   background-color: #000;
-  color:rgb(168, 71, 2);
+  color:#ff6161;
 }
 header {
 
 width: auto;
 height: auto;
 background-color: #fff;
-
+}
+H2 {
+  text-align: center;
+  font-size:6em; 
 }
 .container {
   width: 95%;
@@ -65,7 +68,7 @@ justify-content:space-around;
   
   margin: 35px;
 padding: 25px;
-font-size: 2em;
+font-size: 3.5em;
 letter-spacing: 0.25em;
 text-align: center;
 /*flex-basis: 90%;*/
@@ -87,7 +90,6 @@ color: #ff6161;
 }
 footer {
   text-align: center;
-  font-size:xx-small;
   color:rgba(210, 105, 30, 0.24)
-
+/*font-size:0.15em;*/
 }
