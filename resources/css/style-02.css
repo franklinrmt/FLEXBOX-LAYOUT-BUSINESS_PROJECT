@@ -1,64 +1,93 @@
+html {
+  background-color: darkolivegreen;
+}
+
 body {
   color: rgb(179, 179, 248);
+}
+h1 {
+  text-align: center;
+}
+.subt {
+  text-align: center;
 }
 img {
   width: 100%;
 }
-
+.header {
+  font-size: 2.5em;
+}
+.kontainer {
+  display: flex;
+  flex-direction: row;
+}
+.oneO {
+  order: 3;
+}
+.twoT {
+  order: 2;
+  font-size: 1.25em;
+}
+.threeTh {
+  order: 1;
+  font-size: 1.5em;
+}
 .container {
   width: 99%;
-display: flex;
-gap: 10px;
-flex-direction: row;
-justify-content:space-around;
-align-items: center;
-border:6px solid greenyellow ;
-margin: 20px;
-padding: 10px;
-box-sizing: border-box;
-border-radius: 50% 20% /  25% 10%;
-
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  /*border: 6px solid greenyellow;*/
+  margin: 25px 20px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2% 3% 5% 18%;
 }
-
 
 figcaption {
-
-text-align: center;
-
+  text-align: center;
 }
-.key {
-  color: white;
-}
-.section-one {
+
+.section-oneO {
   background-color: #000000;
-  
-  /*flex: 1 1 100%;*/
+  flex: 1 1 100%;
 }
-.section-two {
-  background-color: hotpink;
-    border: 15px solid purple;
- 
-
+.section-twoT {
+  background-color: black;
+  color: blue;
+  border: 15px solid purple;
 }
-.one, .two, .three {
-  
-  flex: 1 1 35%;
-  border: 3px solid blue;
-  border-radius: 50% 20% / 40% 10%;
-
+.oneO,
+.twoT,
+.threeTh {
+  flex: 1 1 33%;
+  /*border: 3px solid blue;*/
+  border-radius: 10% 15% 40% 10%;
 }
 footer {
   color: rgba(255, 105, 180, 0.349);
   text-align: center;
 }
 
-@media screen and (max-width: 960px) and (min-width:365px) {
+@media screen and (max-width: 2200px) and (min-width: 475px) {
   .container {
-    background-color: chartreuse;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    background-color: rgb(3, 66, 3);
+    color: white;
     flex-direction: column;
+    justify-content: center;
   }
 }
 .kontainer {
+  width: 100%;
   background-color: orange;
 }
