@@ -1,5 +1,5 @@
 html {
-  background-color: darkolivegreen;
+  background-color: rgb(117, 177, 14);
 }
 
 body {
@@ -22,15 +22,18 @@ img {
   flex-direction: row;
 }
 .oneO {
-  order: 3;
+  order: 2;
+  z-index: 2;
 }
 .twoT {
   order: 2;
   font-size: 1.25em;
+  z-index: 3;
 }
 .threeTh {
   order: 1;
   font-size: 1.5em;
+  z-index: 1;
 }
 .container {
   width: 99%;
